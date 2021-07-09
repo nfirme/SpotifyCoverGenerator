@@ -1,0 +1,7 @@
+{
+  "name": "cover-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nick Firme <nickfirme@live.com>",
+  "license": "MIT"
+}

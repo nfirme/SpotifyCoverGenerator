@@ -10,5 +10,11 @@
     "express": "^4.17.1",
     "querystring": "^0.2.1",
     "request": "^2.88.2"
+  },
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
   }
 }

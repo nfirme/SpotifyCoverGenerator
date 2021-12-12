@@ -15,7 +15,7 @@ const app = express();
 app.use(cors());
 
 app.get('/login', (req, res) => {
-  const scope = '';
+  const scope = 'playlist-read-private';
   const loginOptions = {
     client_id: CLIENT_ID,
     response_type: 'code',

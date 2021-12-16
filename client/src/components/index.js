@@ -1,2 +1,2 @@
-export { default as Login } from './Login';
 export { default as PlaylistGrid } from './PlaylistGrid';
+export { default as LandingPage } from './LandingPage';

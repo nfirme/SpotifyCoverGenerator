@@ -1,18 +1,42 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import ImageListItem from '@mui/material/ImageListItem';
+import { Box, Typography, Grid } from '@mui/material';
+import fallback from '../img/taylor.png';
 
-function PlaylistGridItem({ image, name }) {
-  return (
-    <ImageListItem>
-      <img src={image} alt={name} />
-    </ImageListItem>
-  )
+const gridCols = {
+  xs: 6,
+  sm: 4,
+  md: 3,
+};
+
+const gridItemStyles = {
+  display: 'flex',
+  flexDirection: 'column',
+  textAlign: 'center',
+};
+
+const hoverStyles = {
+  transition: 'all .2s ease-in',
+  ':hover': {
+    transform: 'scale(1.05)',
+    transition: 'all .2s ease-out',
+  },
+};
+
+const handleError = (e) => {
+  e.target.onerror = null;
+  e.target.src = fallback;
 }
 
-PlaylistGridItem.propTypes = {
-  image: PropTypes.string,
-  name: PropTypes.string,
-};
+function PlaylistGridItem(props) {
+  const { name, images } = props;
+  return (
+    <Grid item {...gridCols} sx={gridItemStyles}>
+      <Box sx={hoverStyles} mb={2}>
+        <img src={images[0].url} alt="" onError={handleError} style={{ maxWidth: '100%' }} />
+      </Box>
+      <Typography px={2}>{name}</Typography>
+    </Grid>
+  );
+}
 
 export default PlaylistGridItem;

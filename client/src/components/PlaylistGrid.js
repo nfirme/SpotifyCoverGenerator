@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getPlaylists } from '../spotify';
-import { ImageList } from '@mui/material';
+import { Grid, CircularProgress } from '@mui/material';
 import PlaylistGridItem from './PlaylistGridItem';
 
 function PlaylistGrid() {
@@ -14,22 +14,18 @@ function PlaylistGrid() {
     fetchData();
   }, []);
 
-  const Loader = () => {
-    return <div>Loading...</div>
-  };
-
   return (
     <>
       <h1>Playlists</h1>
+      <Grid container spacing={3}>
         {playlists ? (
-          <ImageList cols={4}>
-            {playlists.map(p => (
-              <PlaylistGridItem key={p.id} image={p.images[0].url} name={p.name} />
-            ))}
-          </ImageList>
+          playlists.map(({ id, name, images }, index) => (
+            <PlaylistGridItem key={index} id={id} name={name} images={images} />
+          ))
         ) : (
-          <Loader />
+          <CircularProgress />
         )}
+      </Grid>
     </>
   );
 }

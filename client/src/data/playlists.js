@@ -1,0 +1,763 @@
+export const playlists = [
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/1A9pZFyXbY2l9NOJU9t9IM',
+    },
+    href: 'https://api.spotify.com/v1/playlists/1A9pZFyXbY2l9NOJU9t9IM',
+    id: '1A9pZFyXbY2l9NOJU9t9IM',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2730c16402a73f6074645d694bfab67616d0000b27342f302d9c7256baf5e9b03d4ab67616d0000b273cf59cb30bae10663d53298fcab67616d0000b273d272c37389bd3d9c20564166',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2730c16402a73f6074645d694bfab67616d0000b27342f302d9c7256baf5e9b03d4ab67616d0000b273cf59cb30bae10663d53298fcab67616d0000b273d272c37389bd3d9c20564166',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2730c16402a73f6074645d694bfab67616d0000b27342f302d9c7256baf5e9b03d4ab67616d0000b273cf59cb30bae10663d53298fcab67616d0000b273d272c37389bd3d9c20564166',
+        width: 60,
+      },
+    ],
+    name: 'off broadway this is a really long playlsit title how you like them apples',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'MTUsODFlOTBlZTM3NmExMjM3MjZlYjU0NTFmNDA3NTNiMDk0NGIwMDEzNg==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/1A9pZFyXbY2l9NOJU9t9IM/tracks',
+      total: 12,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:1A9pZFyXbY2l9NOJU9t9IM',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/6Hfv5Lh5U9vETZtaUath52',
+    },
+    href: 'https://api.spotify.com/v1/playlists/6Hfv5Lh5U9vETZtaUath52',
+    id: '6Hfv5Lh5U9vETZtaUath52',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b273332d85510aba3eb28312cfb2ab67616d0000b27395f754318336a07e85ec59bcab67616d0000b273da5d5aeeabacacc1263c0f4bab67616d0000b273e787cffec20aa2a396a61647',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b273332d85510aba3eb28312cfb2ab67616d0000b27395f754318336a07e85ec59bcab67616d0000b273da5d5aeeabacacc1263c0f4bab67616d0000b273e787cffec20aa2a396a61647',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b273332d85510aba3eb28312cfb2ab67616d0000b27395f754318336a07e85ec59bcab67616d0000b273da5d5aeeabacacc1263c0f4bab67616d0000b273e787cffec20aa2a396a61647',
+        width: 60,
+      },
+    ],
+    name: 'colors',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'MTQsNTEyMWM4MTk0Yzc4OTlmN2E1NGJlZjAwNTI5YmEzZThiNjdjZTQwZg==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/6Hfv5Lh5U9vETZtaUath52/tracks',
+      total: 12,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:6Hfv5Lh5U9vETZtaUath52',
+  },
+  {
+    collaborative: false,
+    description: 'Songs you love right now',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/37i9dQZF1Epsdknwhl27SJ',
+    },
+    href: 'https://api.spotify.com/v1/playlists/37i9dQZF1Epsdknwhl27SJ',
+    id: '37i9dQZF1Epsdknwhl27SJ',
+    images: [
+      {
+        height: null,
+        url: 'https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_LARGE-en.jpg',
+        width: null,
+      },
+    ],
+    name: 'On Repeat',
+    owner: {
+      display_name: 'Spotify',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/spotify',
+      },
+      href: 'https://api.spotify.com/v1/users/spotify',
+      id: 'spotify',
+      type: 'user',
+      uri: 'spotify:user:spotify',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id:
+      'MTYzOTg5MzYwNiwwMDAwMDAwMDVmZmMwNWFlZGU5ZTQwNjIwM2NlMDdmZjQ5ODVjZWZm',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/37i9dQZF1Epsdknwhl27SJ/tracks',
+      total: 30,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:37i9dQZF1Epsdknwhl27SJ',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/6SWyRNpsDnHPcSSe1z7lV1',
+    },
+    href: 'https://api.spotify.com/v1/playlists/6SWyRNpsDnHPcSSe1z7lV1',
+    id: '6SWyRNpsDnHPcSSe1z7lV1',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b2732e35d25eb7288830d5540484ab67616d0000b2734bd696408f24e30f221048b6ab67616d0000b2739ff50d3896687366f4ed4113ab67616d0000b273aaccdce1c6038f45b7827039',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b2732e35d25eb7288830d5540484ab67616d0000b2734bd696408f24e30f221048b6ab67616d0000b2739ff50d3896687366f4ed4113ab67616d0000b273aaccdce1c6038f45b7827039',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b2732e35d25eb7288830d5540484ab67616d0000b2734bd696408f24e30f221048b6ab67616d0000b2739ff50d3896687366f4ed4113ab67616d0000b273aaccdce1c6038f45b7827039',
+        width: 60,
+      },
+    ],
+    name: 'bubbling under',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'NiwzYTU0NGUyNTVjOTVlMDY4ZTk5NjA3M2UxN2M5ZmE3OGQ5MjlhNjJl',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/6SWyRNpsDnHPcSSe1z7lV1/tracks',
+      total: 4,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:6SWyRNpsDnHPcSSe1z7lV1',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/0NPt9MpfZJcLWAIBhBbiv8',
+    },
+    href: 'https://api.spotify.com/v1/playlists/0NPt9MpfZJcLWAIBhBbiv8',
+    id: '0NPt9MpfZJcLWAIBhBbiv8',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebbea7620b12589992d8d91bf3b',
+        width: null,
+      },
+    ],
+    name: 'favorite songs of all time',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: true,
+    snapshot_id: 'OTksYjYwOGRhMGM2YWIzYTI0ZDYwMjBlYmE1NDE2NzE3MzRiZWFjYWFjYQ==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/0NPt9MpfZJcLWAIBhBbiv8/tracks',
+      total: 57,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:0NPt9MpfZJcLWAIBhBbiv8',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/3HrCaqgz1T2wpYYqz9ICDu',
+    },
+    href: 'https://api.spotify.com/v1/playlists/3HrCaqgz1T2wpYYqz9ICDu',
+    id: '3HrCaqgz1T2wpYYqz9ICDu',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb291785ac50ccafdb26259d04',
+        width: null,
+      },
+    ],
+    name: 'granola boy',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'MTMsYThhOTY5OTU3NDc5NTQ0YWUyZTM0MzVlZDBhYjJiMmRhNWUwYWU3NQ==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/3HrCaqgz1T2wpYYqz9ICDu/tracks',
+      total: 11,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:3HrCaqgz1T2wpYYqz9ICDu',
+  },
+  {
+    collaborative: false,
+    description: 'my fav taylor swift songs',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/5zCeYKWhQJLxBa9oy7j9ok',
+    },
+    href: 'https://api.spotify.com/v1/playlists/5zCeYKWhQJLxBa9oy7j9ok',
+    id: '5zCeYKWhQJLxBa9oy7j9ok',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebbc4acffba3d5742b373a400a9',
+        width: null,
+      },
+    ],
+    name: 'miss americana',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'MTk3LDFmZWZkMzRlMWZkMDA5MDM4ZjdkZDlhY2Q5MmMxYjBhODE2NTQ3YTc=',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/5zCeYKWhQJLxBa9oy7j9ok/tracks',
+      total: 99,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:5zCeYKWhQJLxBa9oy7j9ok',
+  },
+  {
+    collaborative: false,
+    description: 'early 2010s',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/4UMrylbGdyJi2O48E7ZRf6',
+    },
+    href: 'https://api.spotify.com/v1/playlists/4UMrylbGdyJi2O48E7ZRf6',
+    id: '4UMrylbGdyJi2O48E7ZRf6',
+    images: [
+      {
+        height: 640,
+        url: 'https://mosaic.scdn.co/640/ab67616d0000b27386b0c9728ad3ed338eaeea79ab67616d0000b273871d85943145dde548f4ae09ab67616d0000b273a197a2ef3ad6704d1f44aa4eab67616d0000b273dcef905cb144d4867119850b',
+        width: 640,
+      },
+      {
+        height: 300,
+        url: 'https://mosaic.scdn.co/300/ab67616d0000b27386b0c9728ad3ed338eaeea79ab67616d0000b273871d85943145dde548f4ae09ab67616d0000b273a197a2ef3ad6704d1f44aa4eab67616d0000b273dcef905cb144d4867119850b',
+        width: 300,
+      },
+      {
+        height: 60,
+        url: 'https://mosaic.scdn.co/60/ab67616d0000b27386b0c9728ad3ed338eaeea79ab67616d0000b273871d85943145dde548f4ae09ab67616d0000b273a197a2ef3ad6704d1f44aa4eab67616d0000b273dcef905cb144d4867119850b',
+        width: 60,
+      },
+    ],
+    name: 'never growing up',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'ODEsOGZmMDFmZDFhNWNjNDE1ODg5NjFiMDVhOWUyMTk5NTgxMGQ0MGRkMQ==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/4UMrylbGdyJi2O48E7ZRf6/tracks',
+      total: 86,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:4UMrylbGdyJi2O48E7ZRf6',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/71stGv76lpFGiQwOgVeCCm',
+    },
+    href: 'https://api.spotify.com/v1/playlists/71stGv76lpFGiQwOgVeCCm',
+    id: '71stGv76lpFGiQwOgVeCCm',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb8002f47415158cf1e67850c4',
+        width: null,
+      },
+    ],
+    name: 'pop-ish',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'NjIsYjgyOTc1MjE5YTM4NzUxYzc5NzkyOTNmZDMxYTM2MGUzNmQ4MTU3Mg==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/71stGv76lpFGiQwOgVeCCm/tracks',
+      total: 94,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:71stGv76lpFGiQwOgVeCCm',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/4aI1iAKXQ9IHVVtWEIf7e3',
+    },
+    href: 'https://api.spotify.com/v1/playlists/4aI1iAKXQ9IHVVtWEIf7e3',
+    id: '4aI1iAKXQ9IHVVtWEIf7e3',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb0534021eb0bffb877a83a741',
+        width: null,
+      },
+    ],
+    name: 'very chill',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'NjEsNjhjYjM3MDY4MTEwM2ZlOTU0NmI4NDU2ZGJiZGM1YzI3ZWI0ZGQ4MA==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/4aI1iAKXQ9IHVVtWEIf7e3/tracks',
+      total: 55,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:4aI1iAKXQ9IHVVtWEIf7e3',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/0N1Lo01koiwkFHwiMLRvFP',
+    },
+    href: 'https://api.spotify.com/v1/playlists/0N1Lo01koiwkFHwiMLRvFP',
+    id: '0N1Lo01koiwkFHwiMLRvFP',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb0943d7039cca2892d67d8973',
+        width: null,
+      },
+    ],
+    name: 'big green tractor',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: true,
+    snapshot_id: 'MjksMWRlYzAyN2NmMmUwZTcxNDZmZWM1MGViNDM1M2M5Yjg1YTVjZGU1Mg==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/0N1Lo01koiwkFHwiMLRvFP/tracks',
+      total: 27,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:0N1Lo01koiwkFHwiMLRvFP',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/0B38TbnA3Bi98Ob1PNwACA',
+    },
+    href: 'https://api.spotify.com/v1/playlists/0B38TbnA3Bi98Ob1PNwACA',
+    id: '0B38TbnA3Bi98Ob1PNwACA',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb19e9031fbc85fbc0a73177e6',
+        width: null,
+      },
+    ],
+    name: 'dusk till dawn',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'NDQsMDkzMWNmYjdjYzAyMjQ4ZTk5ODI5ZDIxYTI4MWM4M2I5MmMyMzZlNA==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/0B38TbnA3Bi98Ob1PNwACA/tracks',
+      total: 36,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:0B38TbnA3Bi98Ob1PNwACA',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/1RIRJKEwbfru11QwMx7w5S',
+    },
+    href: 'https://api.spotify.com/v1/playlists/1RIRJKEwbfru11QwMx7w5S',
+    id: '1RIRJKEwbfru11QwMx7w5S',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb3d7a98f323a28d21b1cab119',
+        width: null,
+      },
+    ],
+    name: 'east high',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'NDgsNjIzNTFmYjcxZDQ1NjIxNzUwYmY1NTQ2YTNkNjFlYjMyYjE1MGE2ZQ==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/1RIRJKEwbfru11QwMx7w5S/tracks',
+      total: 127,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:1RIRJKEwbfru11QwMx7w5S',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/49HtIZtnIpfqHgqEfDMFkR',
+    },
+    href: 'https://api.spotify.com/v1/playlists/49HtIZtnIpfqHgqEfDMFkR',
+    id: '49HtIZtnIpfqHgqEfDMFkR',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb430c923eeccc6b4d1164cec6',
+        width: null,
+      },
+    ],
+    name: 'local files',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'MTEsYTc1NGFjYjNjMGZjZTIxNTVjYmRhMjBmYjMzMTQ3MWU1ZDUzY2I0Nw==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/49HtIZtnIpfqHgqEfDMFkR/tracks',
+      total: 31,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:49HtIZtnIpfqHgqEfDMFkR',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/1p8xiJfIZmTCxVpHwEojI6',
+    },
+    href: 'https://api.spotify.com/v1/playlists/1p8xiJfIZmTCxVpHwEojI6',
+    id: '1p8xiJfIZmTCxVpHwEojI6',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb5b3718c2b2a5a222de9577b3',
+        width: null,
+      },
+    ],
+    name: 'glee',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'MTE0LDg5YWEwNDI3ODhlMzMyNDJjOTk3NGRlMzJhYTQ0Yjc4NWEyZDgzMjg=',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/1p8xiJfIZmTCxVpHwEojI6/tracks',
+      total: 96,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:1p8xiJfIZmTCxVpHwEojI6',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/2r986LreZGl5ZGu1oeu6xF',
+    },
+    href: 'https://api.spotify.com/v1/playlists/2r986LreZGl5ZGu1oeu6xF',
+    id: '2r986LreZGl5ZGu1oeu6xF',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb4b23fb907e56d2ddbb7953b0',
+        width: null,
+      },
+    ],
+    name: 'grimmie',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'OTMsYWFkYWFiNDcyODRiMDJkNzgwNjE5YjA1MDE4NzUxYjEyYzkwZDgxOA==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/2r986LreZGl5ZGu1oeu6xF/tracks',
+      total: 59,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:2r986LreZGl5ZGu1oeu6xF',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/4qCecLb5icCnBIg58rgl0C',
+    },
+    href: 'https://api.spotify.com/v1/playlists/4qCecLb5icCnBIg58rgl0C',
+    id: '4qCecLb5icCnBIg58rgl0C',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb38d6e7deffbdfe38abe514d7',
+        width: null,
+      },
+    ],
+    name: 'songs that are laced',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: true,
+    snapshot_id: 'MjEsYWEzZGYxMWZlNDQ0OGQ1ZTQzOTRjYzIyOGJhZTdmYjE5YTk5YjcyZQ==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/4qCecLb5icCnBIg58rgl0C/tracks',
+      total: 16,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:4qCecLb5icCnBIg58rgl0C',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/0Ems9rK7mWUq5tn8R7o008',
+    },
+    href: 'https://api.spotify.com/v1/playlists/0Ems9rK7mWUq5tn8R7o008',
+    id: '0Ems9rK7mWUq5tn8R7o008',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebbc1b703a4d6a4737b43a7a96a',
+        width: null,
+      },
+    ],
+    name: 'studying',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: false,
+    snapshot_id: 'OCxmNTIyZWQ5ZTAxNDQ5ZGQ0ZjM5YWEzZTk3NDM5YTA5N2EyMjI1Y2Q1',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/0Ems9rK7mWUq5tn8R7o008/tracks',
+      total: 5,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:0Ems9rK7mWUq5tn8R7o008',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/4biMPbWnznvFmNLU8D6D9b',
+    },
+    href: 'https://api.spotify.com/v1/playlists/4biMPbWnznvFmNLU8D6D9b',
+    id: '4biMPbWnznvFmNLU8D6D9b',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebb46e9ef7099ee6a5a068d04fc',
+        width: null,
+      },
+    ],
+    name: 'sunshine & serotonin',
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: true,
+    snapshot_id: 'NjIsNDRhMGI3ZTAxYjg5ZTA1OGI4MDQ4YzM5ZWRiY2ZlYjUzNDFjNDYzZQ==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/4biMPbWnznvFmNLU8D6D9b/tracks',
+      total: 51,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:4biMPbWnznvFmNLU8D6D9b',
+  },
+  {
+    collaborative: false,
+    description: '',
+    external_urls: {
+      spotify: 'https://open.spotify.com/playlist/1LKu1GirENJ5h2nTOqo3fo',
+    },
+    href: 'https://api.spotify.com/v1/playlists/1LKu1GirENJ5h2nTOqo3fo',
+    id: '1LKu1GirENJ5h2nTOqo3fo',
+    images: [
+      {
+        height: null,
+        url: 'https://i.scdn.co/image/ab67706c0000bebbf9f80cf5164727c4cb33489e',
+        width: null,
+      },
+    ],
+    name: "this ain't a scene",
+    owner: {
+      display_name: 'nick.firme',
+      external_urls: {
+        spotify: 'https://open.spotify.com/user/nick.firme',
+      },
+      href: 'https://api.spotify.com/v1/users/nick.firme',
+      id: 'nick.firme',
+      type: 'user',
+      uri: 'spotify:user:nick.firme',
+    },
+    primary_color: null,
+    public: true,
+    snapshot_id: 'NTQsNDk3NjU4OGYzMGNhOGY0YWYwMzdiZTVjNzE0MzM5Yjg4OWE0MmE4Mw==',
+    tracks: {
+      href: 'https://api.spotify.com/v1/playlists/1LKu1GirENJ5h2nTOqo3fo/tracks',
+      total: 91,
+    },
+    type: 'playlist',
+    uri: 'spotify:playlist:1LKu1GirENJ5h2nTOqo3fo',
+  },
+];

@@ -3,9 +3,10 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   typography: {
     fontFamily: [
-      'inter',
       '-apple-system',
       'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'Roboto',
       '"Helvetica Neue"',
       'Arial',
       'sans-serif',
@@ -15,13 +16,17 @@ const theme = createTheme({
     ].join(','),
   },
   palette: {
-    spotify: {
-      main: '#1db954',
-      light: '#62ec83',
-      dark: '#008827',
-      contrastText: '#fff'
-    }
-  }
+    primary: {
+      main: '#00cc8e',
+      light: '#0affb6',
+      dark: '#008f64',
+    },
+    secondary: {
+      main: '#246EB9',
+      dark: '#184777',
+      light: '#5699DC',
+    },
+  },
 });
 
 export default theme;

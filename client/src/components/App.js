@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react';
-import { token, logout } from '../auth';
-import { LandingPage, PlaylistGrid } from '.';
-import { Container, Button } from '@mui/material';
+import { token } from '../auth';
+import { BrowserRouter } from 'react-router-dom';
+import { CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
+
+import Main from './Main';
+import LandingPage from './LandingPage';
 
 function App() {
   const [accessToken, setAccessToken] = useState('');
@@ -12,21 +15,13 @@ function App() {
     setAccessToken(token);
   }, []);
 
-  const Main = () => {
-    return (
-      <>
-        <PlaylistGrid />
-        <Button onClick={logout} variant="outlined" color="error">Log Out</Button>
-      </>
-    )
-  }
-
   return (
-    <ThemeProvider theme={theme}>
-      <Container sx={{ minHeight: '100vh' }}>
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
         {accessToken ? <Main /> : <LandingPage />}
-      </Container>
-    </ThemeProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 

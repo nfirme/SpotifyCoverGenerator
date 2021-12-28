@@ -1,10 +1,17 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 
-export default function Login() {
+function Login() {
   return (
-    <Button color="success" variant="contained" size="large" href="http://localhost:8888/login">
+    <Button
+      color="primary"
+      variant="contained"
+      size="large"
+      href="http://localhost:8888/login"
+    >
       Login with Spotify
     </Button>
-  )
+  );
 }
+
+export default Login;

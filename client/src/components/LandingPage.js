@@ -1,10 +1,13 @@
 import React from 'react';
-import { Typography, Box } from '@mui/material';
+import { Typography, Box, Container, useTheme } from '@mui/material';
+
 import Login from './Login';
 
 function LandingPage() {
+  const theme = useTheme();
+  
   return (
-    <Box
+    <Container
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -13,14 +16,32 @@ function LandingPage() {
         height: '100vh',
       }}
     >
-      <Typography variant="h2" component="h1">
-        Spotify Playlist Cover Generator
-      </Typography>
-      <Typography variant="h3" component="h2" sx={{ mb: 4 }}>
-        Generate unique covers for your Spotify playlists.
-      </Typography>
-      <Login />
-    </Box>
+      <Box
+        px={4}
+        py={16}
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          textAlign: 'center',
+        }}
+      >
+        <Typography variant="h1" mb={2}>Playlist Cover Generator</Typography>
+        <Typography
+          variant="h2"
+          mb={3}
+          sx={{
+            background: `linear-gradient(to right, ${theme.palette.primary[400]}, ${theme.palette.primary[700]})`,
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+          }}
+        >
+          Generate beautiful covers for your Spotify playlists.
+        </Typography>
+        <Login />
+      </Box>
+    </Container>
   );
 }
 

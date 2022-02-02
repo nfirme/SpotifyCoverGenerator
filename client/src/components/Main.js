@@ -1,16 +1,14 @@
 import React from 'react';
 import { Container } from '@mui/material';
 import PlaylistGrid from './PlaylistGrid';
-import Header from './Header';
+import Footer from './Footer'
 
 function Main() {
   return (
-    <>
-      <Header />
-      <Container>
-        <PlaylistGrid />
-      </Container>
-    </>
+    <Container>
+      <PlaylistGrid />
+      <Footer />
+    </Container>
   );
 }
 

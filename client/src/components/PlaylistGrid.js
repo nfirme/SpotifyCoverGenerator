@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getPlaylists } from '../spotify';
-import { Grid, CircularProgress } from '@mui/material';
+import { Box, Grid, CircularProgress, Typography } from '@mui/material';
 import PlaylistGridItem from './PlaylistGridItem';
 
 function PlaylistGrid() {
@@ -15,8 +15,8 @@ function PlaylistGrid() {
   }, []);
 
   return (
-    <>
-      <h1>Playlists</h1>
+    <Box py={6}>
+      <Typography variant="h2" textAlign="center" mb={4}>Select a playlist to start.</Typography>
       <Grid container spacing={3}>
         {playlists ? (
           playlists.map(({ id, name, images }, index) => (
@@ -26,7 +26,7 @@ function PlaylistGrid() {
           <CircularProgress />
         )}
       </Grid>
-    </>
+    </Box>
   );
 }
 

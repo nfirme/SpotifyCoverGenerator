@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
 import { token } from '../auth';
 import { BrowserRouter } from 'react-router-dom';
-import { CssBaseline } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-import theme from '../theme';
+import { GlobalStyles } from '../styles';
 
 import Main from './Main';
 import LandingPage from './LandingPage';
@@ -17,11 +15,9 @@ function App() {
 
   return (
     <BrowserRouter>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        {accessToken ? <Main /> : <LandingPage />}
-      </ThemeProvider>
-    </BrowserRouter>
+      <GlobalStyles />
+      {accessToken ? <Main /> : <LandingPage />
+    }</BrowserRouter>
   );
 }
 

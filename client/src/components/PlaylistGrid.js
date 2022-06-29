@@ -1,7 +1,21 @@
 import { useState, useEffect } from 'react';
 import { getPlaylists } from '../spotify';
-import { Box, Grid, CircularProgress, Typography } from '@mui/material';
 import PlaylistGridItem from './PlaylistGridItem';
+import styled from 'styled-components';
+
+const PageHeading = styled.h2`
+  margin: 1em auto;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: -2px;
+`;
+
+const GridContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+`;
 
 function PlaylistGrid() {
   const [playlists, setPlaylists] = useState(null);
@@ -15,18 +29,13 @@ function PlaylistGrid() {
   }, []);
 
   return (
-    <Box py={6}>
-      <Typography variant="h2" textAlign="center" mb={4}>Select a playlist to start.</Typography>
-      <Grid container spacing={3}>
-        {playlists ? (
-          playlists.map(({ id, name, images }, index) => (
-            <PlaylistGridItem key={index} id={id} name={name} images={images} />
-          ))
-        ) : (
-          <CircularProgress />
-        )}
-      </Grid>
-    </Box>
+    <div>
+      <PageHeading>Select a playlist to start.</PageHeading>
+      <GridContainer>
+        {playlists && (
+          playlists.map(p => <PlaylistGridItem name={p.name} images={p.images} />))}
+      </GridContainer>
+    </div>
   );
 }
 

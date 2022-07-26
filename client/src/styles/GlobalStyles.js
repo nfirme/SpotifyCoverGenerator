@@ -3,6 +3,16 @@ import theme from './theme';
 const { colors, fonts, fontSizes } = theme;
 
 const GlobalStyles = createGlobalStyle`
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+       url('../fonts/inter-v12-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
   @font-face {
     font-family: 'Inter';
     font-style: normal;
@@ -11,6 +21,15 @@ const GlobalStyles = createGlobalStyle`
         url('../fonts/inter-v12-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
         url('../fonts/inter-v12-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
+  @font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
   @font-face {
     font-family: 'Inter';
@@ -46,6 +65,7 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100%;
     font-family: ${fonts.primary};
     font-size: ${fontSizes.base};
+    font-weight: 200;
     background-color: ${colors.black};
     color: ${colors.white}
   }

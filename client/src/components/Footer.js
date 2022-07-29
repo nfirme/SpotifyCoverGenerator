@@ -12,18 +12,10 @@ const FooterContainer = styled.div`
   align-items: center;
 `;
 
-const LogoutButton = styled(Button)`
-  border-radius: 30px;
-  padding: 16px 32px;
-  font-size: 20px;
-  text-align: center;
-  text-transform: uppercase;
-`;
-
 function Footer() {
   return (
     <FooterContainer>
-      <LogoutButton color={colors.green} onClick={() => logout()}>Log out</LogoutButton>
+      <Button color={colors.green} onClick={() => logout()}>Log out</Button>
     </FooterContainer>
   );
 }

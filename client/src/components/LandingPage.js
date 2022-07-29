@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Button from './Button';
 import { theme } from '../styles';
 const { colors } = theme;
 
@@ -33,27 +34,12 @@ const Container = styled.div`
   min-height: 100vh;
 `;
 
-const LoginButton = styled.a`
-  background-color: ${colors.green};
-  color: ${colors.white};
-  border-radius: 30px;
-  padding: 16px 32px;
-  margin: 20px 0 70px;
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  &:hover,
-  &:focus {
-    background-color: ${colors.darkGreen}
-`;
-
 function LandingPage() {
   return (
     <Container>
       <Title>Playlist Cover Generator</Title>
       <Subtitle>Generate beautiful covers for your Spotify playlists.</Subtitle>
-      <LoginButton href={lOGIN_URI}>Log in with Spotify</LoginButton>
+      <Button href={lOGIN_URI} color={colors.sky}>Log in with Spotify</Button>
     </Container>
   );
 }

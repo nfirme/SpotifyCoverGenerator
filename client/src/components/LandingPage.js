@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { theme } from '../styles'
+import { theme } from '../styles';
 const { colors } = theme;
 
 const lOGIN_URI = 'http://localhost:8888/login';
@@ -8,19 +8,21 @@ const lOGIN_URI = 'http://localhost:8888/login';
 const Title = styled.h1`
   font-size: 5em;
   font-weight: 900;
-  letter-spacing: -4px;
+  letter-spacing: -2px;
   text-align: center;
-  line-height: 0.9;
+  margin-bottom: 16px;
 `;
 
 const Subtitle = styled.h2`
+  color: ${colors.sky};
   font-size: 2em;
-  background: -webkit-linear-gradient(left, ${colors.darkGreen}, ${colors.lightGreen});
+  background: -webkit-linear-gradient(left, ${colors.sky}, ${colors.pink});
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
 `;
 
 const Container = styled.div`
@@ -33,16 +35,14 @@ const Container = styled.div`
 
 const LoginButton = styled.a`
   background-color: ${colors.green};
-  color: #fff;
+  color: ${colors.white};
   border-radius: 30px;
-  padding: 17px 35px;
+  padding: 16px 32px;
   margin: 20px 0 70px;
-  min-width: 160px;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   text-align: center;
-  text-decoration: none;
+  text-transform: uppercase;
   &:hover,
   &:focus {
     background-color: ${colors.darkGreen}
@@ -53,7 +53,7 @@ function LandingPage() {
     <Container>
       <Title>Playlist Cover Generator</Title>
       <Subtitle>Generate beautiful covers for your Spotify playlists.</Subtitle>
-      <LoginButton href={lOGIN_URI}>Login with Spotify</LoginButton>
+      <LoginButton href={lOGIN_URI}>Log in with Spotify</LoginButton>
     </Container>
   );
 }

@@ -1,3 +1,4 @@
+import { createContext } from 'react';
 import axios from 'axios';
 
 export const getHashParams = () => {
@@ -73,3 +74,5 @@ export const logout = () => {
   window.localStorage.removeItem('spotify_refresh_token');
   window.location = window.location.origin;
 };
+
+export const AuthContext = createContext({ token: token, user: null });

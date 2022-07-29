@@ -10,7 +10,7 @@ const headers = {
 
 export const getUser = () => axios.get('https://api.spotify.com/v1/me', { headers });
 export const getPlaylist = (playlist_id) => axios.get(`	https://api.spotify.com/v1/playlists/${playlist_id}`, { headers })
-export const getPlaylists = () => axios.get('https://api.spotify.com/v1/me/playlists', { headers });
+export const getPlaylists = () => axios.get('https://api.spotify.com/v1/me/playlists?limit=50', { headers });
 export const getPlaylistTracks = (playlist_id) => axios.get(`	https://api.spotify.com/v1/playlists/${playlist_id}/tracks`, { headers })
 export const getAudioFeatures = (tracks) => {
   const ids = tracks.map(t => t.track.id).join(',');

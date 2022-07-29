@@ -1,7 +1,9 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import PlaylistOptions from './PlaylistOptions';
 import PlaylistGrid from './PlaylistGrid';
-import { logout } from '../auth'
-import styled from 'styled-components'
+import Footer from './Footer';
+import styled from 'styled-components';
 
 const Container = styled.div`
   margin: 0 auto;
@@ -12,8 +14,12 @@ const Container = styled.div`
 function Main() {
   return (
     <Container>
-      <PlaylistGrid />
-      <button onClick={() => logout()}>Log Out</button>
+      <Routes>
+        <Route index element={<PlaylistGrid />} />
+        <Route path="playlists" element={<PlaylistGrid />} />
+        <Route path="playlists/:playlistId" element={<PlaylistOptions />} />
+      </Routes>
+      <Footer />
     </Container>
   );
 }
